@@ -22,5 +22,8 @@
         $animais = json_encode($listaDeAnimais);
 
         echo $animais;
-    }
+	}
+	else{
+		echo "Não conectou";
+	}
 ?>
