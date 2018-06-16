@@ -1,5 +1,5 @@
 <?php
-    $conectou = mysqli_connect("127.0.0.1", 'root', 'p@$$w0rd', 'adoteumpet');
+    $conectou = mysqli_connect("127.0.0.1", 'root', 'soumais10#', 'adoteumpet');
  
     if ($conectou){
         $query = mysqli_query($conectou, 'SELECT * FROM animal');
