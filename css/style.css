@@ -1,0 +1,308 @@
+* {
+     padding:0;
+     margin:0;
+     vertical-align:baseline;
+     list-style:none;
+     border:0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: #D8D8D8;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.hr {
+     padding: 0 80px;
+}
+
+.hr hr {
+     border-style: solid;
+     border-width: thin;
+     border-color: DimGray;
+     padding: 0 80px;
+}
+
+/* Style the header */
+.header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #A4A4A4;
+}
+
+.topnav ul li {
+     display: inline; /*para retirar os bullets da lista*/
+     font-size: 15px;
+ }
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#logo {
+    background-color: DimGray;
+    color: White;
+    margin: 0;
+    display: inline;
+    border: 2px solid DimGray;
+    border-radius: 8px;
+    padding: 15px;
+    position: absolute;
+    top: 10px;
+    left: 16%;
+}
+
+/* para criar duas colunas dentra da linha, que flutuam uma ao lado da outra */
+.two-columns {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 311.86px;
+}
+
+.two-columns img {
+     width:450px;
+     height:auto !important;
+}
+
+.row {
+     padding: 0px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#first-section {
+     background-color: #151515;
+}
+
+#first-section p {
+     color: Silver;
+     font-size: 20;
+     text-transform: uppercase;
+     padding: 50px 20px 0px;
+     text-align: center;
+     vertical-align: middle;
+}
+
+#first-sectionb {
+     background-color: #151515;
+}
+
+#first-sectionb p {
+     color: Silver;
+     font-size: 20;
+     text-transform: uppercase;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px;
+     text-align: left;
+     vertical-align: top;
+}
+
+#second-section {
+     color: DimGray;
+     font-size: 15;
+     padding: 40px 40px;
+     text-align: center;
+     vertical-align: middle;
+}
+
+
+/* para criar quatro colunas dentra da linha, que flutuam uma ao lado da outra */
+.four-columns {
+    float: left;
+    width: ;
+    padding: 20px;
+
+}
+
+.four-columns img {
+    
+     
+     /*height:auto !important;*/
+}
+
+.carousel-caption {
+     color: DimGray;
+     font-size: 12;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.carousel-control {
+     position: absolute;
+}
+
+.carousel-control img {
+     width: 40px;
+     height:auto !important;
+}
+
+/* Mudar a cor ao passar o mouse nas setas, mas só funcionaria se as setas fossem desenhadas em css */
+.carousel-control a:hover {
+    color: Silver;
+}
+
+
+.right img {
+     transform: rotateY(180deg);
+
+} 
+
+.left  {
+     bottom: -5px;
+     left: 290px;
+}
+
+.right  {
+     bottom: -5px;
+     right: 290px;
+}
+
+.carousel-indicators {
+     position: absolute;
+     bottom: 20px;
+     left: 47.5%;
+}
+
+.carousel-indicators li {
+  float: left;
+  margin-top: 15px;
+  text-align: center;
+  width: 15px;
+}
+
+.carousel-dot {
+  background: DimGray;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+  height: 15px;
+  outline: none;
+  margin: 0 5px;
+  width: 15px;
+  bottom: -120px;
+  position: relative;
+}
+
+.carousel-indicators ol .active {
+     background: Silver;
+}
+
+#myCarousel {
+     margin: 0px auto;
+     position: relative;
+     width: 1500px;
+     overflow: hidden;
+     padding-right: 200px;
+}
+
+.wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    width: 10000px;
+    position: relative;
+    padding-left: 0px;
+}
+
+.item{
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+
+.item h3{
+    position: relative;
+    bottom: -180px;
+    left: -145px;
+    display: block;
+    width: 0px;     
+}
+
+.rodape{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    background: black;
+}
+
+.nome {
+    font-size: 42px;
+    color: white;
+}
+
+.foto{
+    width: 350px;
+    position: absolute;
+    right: 0px;    
+    top: 52px;
+}
+
+#livre{
+    height: 300px;
+}
+.dados{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.imagem{
+    width: 186;
+    height: 186;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 30px;
+    
+}
+
+#linkhome{
+    float: left;
+}
+
+form label{
+    color: white;
+}
+
+.corpo{
+    height: 320px;
+}
+
+#btncadastro{
+    float: right;
+    position: relative;
+    bottom: 55px;
+}
